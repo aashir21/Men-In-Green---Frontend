@@ -1,0 +1,31 @@
+.notfound-banner {
+  width: 100%;
+  height: 100vh;
+}
+
+.notfound-container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.not-found-text {
+  text-align: center;
+}
+
+.error-btn {
+  font-family: "Fira Sans", sans-serif;
+  font-size: 1.2em;
+  padding: 10px 20px;
+  background-color: #fff;
+  color: #0aa629;
+  border: 3px solid #0aa629;
+  border-radius: 25px;
+  margin-top: 20px;
+}
+
+.error-btn:hover {
+  cursor: pointer;
+}

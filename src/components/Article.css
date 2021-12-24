@@ -1,0 +1,88 @@
+.blog-banner {
+  width: 100%;
+  height: 100vh;
+}
+
+.blog-title {
+  font-size: 3.25em;
+  font-family: Montserrat, sans-serif;
+
+  color: #0aa629;
+}
+
+.blog-info-container {
+  width: 75%;
+  margin: auto;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.blog-text {
+  font-family: Fira Sans, sans-serif;
+  font-size: 1.3em;
+  text-align: left;
+}
+
+.blog-images {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+  grid-template-columns: repeat(6, 120px);
+  grid-template-rows: repeat(6, 100px);
+}
+
+.grid-item {
+  height: 100%;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.grid-item1 {
+  grid-row: 1/4;
+  grid-column: 1/4;
+}
+
+.grid-item2 {
+  grid-row: 4/7;
+  grid-column: 1/4;
+}
+
+.grid-item3 {
+  grid-row: 1/4;
+  grid-column: 4/7;
+}
+
+.grid-item4 {
+  grid-row: 4/7;
+  grid-column: 4/7;
+}
+
+.date-created {
+  width: 75%;
+  margin: auto;
+  font-family: Fira Sans, sans-serif;
+  font-size: 1.3em;
+}
+
+@media screen and (min-width: 319px) and (max-width: 479px) {
+  .blog-title {
+    font-size: 2em;
+  }
+
+  .blog-images {
+    grid-template-columns: repeat(6, 55px);
+    grid-template-rows: repeat(6, 55px);
+  }
+
+  .blog-text {
+    font-size: 1.2em;
+  }
+
+  .date-created {
+    font-size: 1.2em;
+  }
+}

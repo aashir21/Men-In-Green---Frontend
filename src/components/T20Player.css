@@ -1,0 +1,103 @@
+.player-hero {
+  width: 100%;
+  height: 100vh;
+}
+
+.player-hero-container {
+  min-height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.image-card {
+  width: 350px;
+  height: 525px;
+  border: 5px solid #0aa629;
+}
+
+.player-info-container {
+  width: 50%;
+  height: 100%;
+  text-align: left;
+}
+
+.player-portrait {
+  height: 100%;
+  width: 100%;
+}
+
+.pl-name {
+  font-size: 3.75rem;
+  font-family: Montserrat, sans-serif;
+}
+
+.player-info {
+  height: auto;
+  width: auto;
+  font-family: Fira Sans, sans-serif;
+}
+
+.player-bio {
+  width: auto;
+  height: auto;
+  font-family: Fira Sans, sans-serif;
+  border: 2px solid #0aa629;
+  text-align: left;
+}
+
+.player-bio-text {
+  padding-left: 5px;
+}
+
+.bioheader {
+  display: 0%;
+}
+
+@media only screen and (min-width: 480px) and (max-width: 900px) {
+  .pl-name {
+    font-size: 2.25rem;
+  }
+}
+
+@media only screen and (min-width: 322px) and (max-width: 479px) {
+  .player-hero-container {
+    flex-direction: column;
+    justify-content: center;
+  }
+  .player-info-container {
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    flex-direction: column;
+    margin: auto;
+    font-size: 1.2em;
+    flex-wrap: wrap;
+  }
+
+  .image-card {
+    margin-top: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+  }
+
+  .pl-name {
+    font-size: 1.75em;
+    width: 100%;
+  }
+
+  .player-bio {
+    width: 90%;
+    margin: auto;
+  }
+
+  .bioheader {
+    display: 100%;
+    font-family: Montserrat, sans-serif;
+    font-size: 1.2em;
+    text-align: center;
+  }
+}

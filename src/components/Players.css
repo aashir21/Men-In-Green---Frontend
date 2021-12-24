@@ -1,0 +1,65 @@
+.players-banner {
+  width: 100%;
+  min-height: 100vh;
+}
+
+.players-text-container {
+  width: 100%;
+  text-align: center;
+}
+
+.players-container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+.header {
+  font-size: 2.5em;
+  font-family: Montserrat, sans-serif;
+  color: #0aa629;
+  padding-left: 20px;
+  font-weight: 500;
+}
+
+.player-card {
+  width: 180px;
+  height: 350px;
+  border: 1px solid #0aa629;
+  border-radius: 25px;
+  margin: 15px 0px 15px 0;
+  box-shadow: rgba(10, 166, 41, 0.4) 0px 5px, rgba(10, 166, 41, 0.3) 0px 10px,
+    rgba(10, 166, 41, 0.2) 0px 15px, rgba(10, 166, 41, 0.1) 0px 20px,
+    rgba(10, 166, 41, 0.05) 0px 25px;
+}
+
+.player-image {
+  width: 100%;
+  height: 75%;
+  border-top-left-radius: 25px;
+  border-top-right-radius: 25px;
+}
+
+.p-img {
+  width: 100%;
+  height: 100%;
+  border-top-left-radius: 25px;
+  border-top-right-radius: 25px;
+}
+
+.player-name {
+  font-family: "Fira Sans", sans-serif;
+  color: #000;
+  width: 100%;
+  height: 25%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.player-link-tag {
+  text-decoration: none;
+}
