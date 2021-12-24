@@ -1,9 +1,9 @@
-import logo from './logo.svg';
+
 import './App.css';
 import Home from './components/Home';
 import Players from './components/Players';
 import T20Player from './components/T20Player';
-import {Route,Link,Routes,Router} from 'react-router-dom';
+import {Route,Routes} from 'react-router-dom';
 import NavBar from './components/NavBar';
 import ODIPlayer from './components/ODIPlayer';
 import TestPlayer from './components/TestPlayer';
